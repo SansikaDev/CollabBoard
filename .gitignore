@@ -1,0 +1,45 @@
+# Node modules for both client and server
+node_modules/
+DS_Store
+# Build outputs
+client/build/
+server/build/
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Env files (keep your secrets outta git)
+.env
+client/.env
+server/.env
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Docker
+docker-compose.override.yml
+**/Dockerfile*
+
+# VSCode settings
+.vscode/
+
+# IDE config files
+*.iml
+.idea/
+
+# Coverage reports
+coverage/
+
+# Misc
+*.bak
+*.tmp
+*.swp
+
+# MongoDB data (if you ever store locally)
+mongo-data/
+

@@ -56,7 +56,7 @@
 1. **Clone the repo**
 
 ```bash
-git clone https://github.com/yourusername/collabboard.git
+git clone https://github.com/SansikaDev/collabboard.git
 cd collabboard
 ```
 
